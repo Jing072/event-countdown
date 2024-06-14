@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Event Countdown </title>
+</head>
+<body>
+    <header>
+        <h1> Event Countdown </h1>
+    </header>
+    <main>
+        <!--countdown Timer-->
+        <div class="cdt">
+            <!--inputs-->
+            <h2> Countdown Timer </h2>
+            <hr>
+            <h3> Date: </h3>
+            <input class="date" type="date" name="date">
+
+            <h3> Time: </h3> 
+            <input class="time" type="time" name="time"> 
+            
+            <h3> Event countdown title: </h3>
+            <input class="title" type="text" name="title" maxlength="40">
+            
+            <h3> Language: </h3>
+            <input class="Language" lang="nl" name="Language">
+            
+            <h3> Timezone: </h3>
+            <input class="timezone" lang="timezone" name="Timezone">
+
+            <!--timer-->
+            <div class="timer">
+                <p class="title-2">TITLE</p>
+                
+                <div class="div-time">
+                    <span class="day">0</span> | 
+                    <span class="hour">0</span> |
+                    <span class="minutes">0</span> |
+                    <span class="seconds">0</span>
+                </div>
+                
+                <p class="time-date"> &nbsp; days &nbsp; hours &nbsp; minutes &nbsp;seconds</p>
+
+                <p class="text"></p>
+            </div><br>
+            
+            <button class="countdown"> START COUNTDOWN </button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
